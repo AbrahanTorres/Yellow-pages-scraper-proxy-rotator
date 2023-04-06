@@ -75,7 +75,7 @@ def main(envar,driver):
     except Exception as ex:
         logging.error("COOKIES: " + str(ex))
         quit()
-    #AQUI
+
     sleep(3)
     lista_cat = ['a/profesionales','a/belleza-y-estetica','a/coches','a/construccion','a/deportes','a/despachos','a/empresas-de-transportes','a/enseñanza','a/hogar','h/hotel',
         'a/informatica','a/jardineria','a/muebles','a/ocio','a/pisos','a/artes-graficas','r/restaurantes','a/centro-de-salud','a/seguridad','a/seguros',
